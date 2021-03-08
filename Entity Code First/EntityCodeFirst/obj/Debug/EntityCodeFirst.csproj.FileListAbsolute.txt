@@ -1,0 +1,15 @@
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityCodeFirst.exe.config
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityCodeFirst.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityCodeFirst.pdb
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityFramework.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityFramework.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.csprojAssemblyReference.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.Form1.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.Properties.Resources.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.GenerateResource.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.CoreCompileInputs.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.CopyComplete
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Code First\EntityCodeFirst\obj\Debug\EntityCodeFirst.pdb

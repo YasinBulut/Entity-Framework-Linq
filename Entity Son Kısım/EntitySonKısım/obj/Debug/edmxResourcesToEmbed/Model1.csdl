@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBEntityEğitimModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_Ders">
+    <Key>
+      <PropertyRef Name="DERSID" />
+    </Key>
+    <Property Name="DERSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DERSAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tbl_Not" Relationship="Self.FK_Tbl_Not_Tbl_Ders" FromRole="Tbl_Ders" ToRole="Tbl_Not" />
+  </EntityType>
+  <EntityType Name="Tbl_Kulup">
+    <Key>
+      <PropertyRef Name="KULUPID" />
+    </Key>
+    <Property Name="KULUPID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULUPAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Tbl_Not">
+    <Key>
+      <PropertyRef Name="NOTID" />
+    </Key>
+    <Property Name="NOTID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OGR" Type="Int32" />
+    <Property Name="DERS" Type="Int32" />
+    <Property Name="SINAV1" Type="Int16" />
+    <Property Name="SINAV2" Type="Int16" />
+    <Property Name="SINAV3" Type="Int16" />
+    <Property Name="ORTALAMA" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="DURUM" Type="Boolean" />
+    <NavigationProperty Name="Tbl_Ders" Relationship="Self.FK_Tbl_Not_Tbl_Ders" FromRole="Tbl_Not" ToRole="Tbl_Ders" />
+    <NavigationProperty Name="Tbl_Ogrenci" Relationship="Self.FK_Tbl_Not_Tbl_Ogrenci" FromRole="Tbl_Not" ToRole="Tbl_Ogrenci" />
+  </EntityType>
+  <EntityType Name="Tbl_Ogrenci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SOYAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FOTOGRAF" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OGRKULUP" Type="Int16" />
+    <Property Name="SEHIR" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tbl_Not" Relationship="Self.FK_Tbl_Not_Tbl_Ogrenci" FromRole="Tbl_Ogrenci" ToRole="Tbl_Not" />
+  </EntityType>
+  <Association Name="FK_Tbl_Not_Tbl_Ders">
+    <End Role="Tbl_Ders" Type="Self.Tbl_Ders" Multiplicity="0..1" />
+    <End Role="Tbl_Not" Type="Self.Tbl_Not" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Ders">
+        <PropertyRef Name="DERSID" />
+      </Principal>
+      <Dependent Role="Tbl_Not">
+        <PropertyRef Name="DERS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Not_Tbl_Ogrenci">
+    <End Role="Tbl_Ogrenci" Type="Self.Tbl_Ogrenci" Multiplicity="0..1" />
+    <End Role="Tbl_Not" Type="Self.Tbl_Not" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Ogrenci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tbl_Not">
+        <PropertyRef Name="OGR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBEntityEğitimEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Ders" EntityType="Self.Tbl_Ders" />
+    <EntitySet Name="Tbl_Kulup" EntityType="Self.Tbl_Kulup" />
+    <EntitySet Name="Tbl_Not" EntityType="Self.Tbl_Not" />
+    <EntitySet Name="Tbl_Ogrenci" EntityType="Self.Tbl_Ogrenci" />
+    <AssociationSet Name="FK_Tbl_Not_Tbl_Ders" Association="Self.FK_Tbl_Not_Tbl_Ders">
+      <End Role="Tbl_Ders" EntitySet="Tbl_Ders" />
+      <End Role="Tbl_Not" EntitySet="Tbl_Not" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Not_Tbl_Ogrenci" Association="Self.FK_Tbl_Not_Tbl_Ogrenci">
+      <End Role="Tbl_Ogrenci" EntitySet="Tbl_Ogrenci" />
+      <End Role="Tbl_Not" EntitySet="Tbl_Not" />
+    </AssociationSet>
+    <EntitySet Name="Tbl_Urun" EntityType="DBEntityEğitimModel.Tbl_Urun" />
+    <FunctionImport Name="KULUPLER" ReturnType="Collection(DBEntityEğitimModel.KULUPLER_Result)" />
+  </EntityContainer>
+  <EntityType Name="Tbl_Urun">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FIYAT" Type="Int32" />
+    <Property Name="STOKSAYISI" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="KULUPLER_Result">
+    <Property Type="String" Name="AD" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="SOYAD" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="SEHIR" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="KULUPAD" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,16 @@
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\Proje-1.exe.config
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\Proje-1.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\Proje-1.pdb
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\EntityFramework.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\EntityFramework.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.csprojAssemblyReference.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje_1.Form1.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje_1.Properties.Resources.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.csproj.GenerateResource.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.csproj.CoreCompileInputs.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.csproj.CopyComplete
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje-1.pdb
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\EntityOrnek\Proje-1\obj\Debug\Proje_1.Form2.resources

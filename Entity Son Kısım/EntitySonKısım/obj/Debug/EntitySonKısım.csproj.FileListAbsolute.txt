@@ -1,0 +1,16 @@
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntitySonKısım.exe.config
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntitySonKısım.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntitySonKısım.pdb
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntityFramework.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntityFramework.SqlServer.dll
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntityFramework.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\bin\Debug\EntityFramework.SqlServer.xml
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.csprojAssemblyReference.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.Form1.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.Properties.Resources.resources
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.GenerateResource.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.CoreCompileInputs.cache
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.CopyComplete
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.exe
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.pdb
+D:\Eğitimlerim\Youtube -Murat Yücedağ\Entity Framework 50 Ders\Entity Son Kısım\EntitySonKısım\obj\Debug\EntitySonKısım.Form2.resources
